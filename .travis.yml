@@ -34,4 +34,4 @@ deploy:
       github-token: $GITHUB_TOKEN
       verbose: true
       on:
-          branch:master
+          branch: deploy
