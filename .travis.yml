@@ -33,12 +33,12 @@ deploy:
   on:
     repo: keinstein/macdylibbundler
     branch: deploy
-    - provider: pages
-      skip_cleanup: true
-      local-dir: public
-      branch:    gh-pages
-      keep-history: true
-      github-token: $GITHUB_TOKEN
-      verbose: true
-      on:
-          branch: deploy
+- provider: pages
+  skip_cleanup: true
+  local-dir: public
+  branch:    gh-pages
+  keep-history: true
+  github-token: $GITHUB_TOKEN
+  verbose: true
+  on:
+      branch: deploy
